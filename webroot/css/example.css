@@ -1,0 +1,27 @@
+
+.layout-profile{
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+    color: #cccccc;
+}
+
+.login{
+    padding: 10% 30%;
+    background-color: #116D76;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.login .users{
+    background-color: #01545B;
+}
+.login .users label{
+    color: #ffffff;
+}
+.login .users button{
+    color: #ffffff;
+    background-color: #01545B ;
+}
+

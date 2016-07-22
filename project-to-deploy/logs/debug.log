@@ -1,0 +1,527 @@
+2016-07-21 21:17:00 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [C:\xampp\htdocs\example\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\SessionHelper::__construct() - CORE\src\View\Helper\SessionHelper.php, line 39
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 142
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 66
+Cake\View\View::__get() - CORE\src\View\View.php, line 891
+include - APP/Template\Element\profileData.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1332
+Cake\View\View::element() - CORE\src\View\View.php, line 493
+include - APP/Template\Layout\default.ctp, line 43
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:19:30 Notice: Deprecated (16384): SessionHelper has been deprecated. Use request->session() instead. in [C:\xampp\htdocs\example\vendor\cakephp\cakephp\src\View\Helper\SessionHelper.php, line 39]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\SessionHelper::__construct() - CORE\src\View\Helper\SessionHelper.php, line 39
+Cake\View\HelperRegistry::_create() - CORE\src\View\HelperRegistry.php, line 142
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\View\HelperRegistry::__isset() - CORE\src\View\HelperRegistry.php, line 66
+Cake\View\View::__get() - CORE\src\View\View.php, line 891
+include - APP/Template\Element\profileData.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1332
+Cake\View\View::element() - CORE\src\View\View.php, line 493
+include - APP/Template\Layout\default.ctp, line 43
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:25:33 Notice: Notice (8): Undefined index: name in [C:\xampp\htdocs\example\src\Template\Element\profileData.ctp, line 11]
+Request URL: /example/users
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Element\profileData.ctp, line 11
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1332
+Cake\View\View::element() - CORE\src\View\View.php, line 493
+include - APP/Template\Layout\default.ctp, line 43
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:42:49 Notice: Notice (8): Undefined variable: layout in [C:\xampp\htdocs\example\src\Controller\UsersController.php, line 22]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 22
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:42:56 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->layout() instead. in [C:\xampp\htdocs\example\vendor\cakephp\cakephp\src\Controller\Controller.php, line 374]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 374
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 22
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:44:49 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:47:40 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:47:56 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:48:10 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:49:58 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:51:02 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:52:24 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:53:16 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:53:31 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:54:03 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:54:35 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:55:27 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:55:53 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:57:12 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:57:15 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:58:30 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 21:58:54 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-21 23:00:22 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Referer URL: http://localhost:8080/example/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 03:58:00 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 03:58:30 Notice: Deprecated (16384): Property $theme is deprecated. Use $this->viewBuilder()->theme() instead in beforeRender(). in [C:\xampp\htdocs\example\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 103]
+Request URL: /example/frontend
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 103
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 03:59:18 Notice: Deprecated (16384): Property $theme is deprecated. Use $this->viewBuilder()->theme() instead in beforeRender(). in [C:\xampp\htdocs\example\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 103]
+Request URL: /example/frontend
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::createView() - CORE\src\View\ViewVarsTrait.php, line 103
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 610
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 03:59:35 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/frontend
+Referer URL: http://localhost:8080/example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 03:59:41 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/frontend
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 04:00:14 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/frontend
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 04:40:21 Notice: Notice (8): Undefined variable: cakeDescription in [C:\xampp\htdocs\example\src\Template\Layout\login.ctp, line 7]
+Request URL: /example/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\login.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-22 19:19:00 Notice: Notice (8): Undefined variable: session in [C:\xampp\htdocs\example\src\Controller\AppController.php, line 72]
+Request URL: /example/frontend/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 72
+App\Controller\FrontendController::beforeRender() - APP/Controller\FrontendController.php, line 12
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 407
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 373
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 596
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
