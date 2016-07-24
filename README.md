@@ -9,4 +9,5 @@ Some things to specify:
   - php using CakePHP 3.2.12 framework
   - Bootstrap, jQuery
   - Some functions: login, manage entities(users, products, categories), show products by category, add product to cart, view/delete/addCount products in my cart.
+  - IDE: phpStorm 2016
 
