@@ -20,6 +20,7 @@ Some things to specify:
   - JS: "/example-simple-page/project-to-deploy/webroot/js/frontend.js"
   - PHP: "/example-simple-page/project-to-deploy/src/Controller/FrontendController.php"
   - HTML: "/example-simple-page/project-to-deploy/src/Template/Layout/frontend.ctp"
+  - Also I did a reusable elements: "/example-simple-page/project-to-deploy/src/Template/Element"
 5. Websites I worked on are visibles on Internet and the others are accessible only in Cuba. In all cases respecting the designer's proposal:
 
       . http://www.pensarencuba.cu/revista/
