@@ -15,7 +15,11 @@ Some things to specify:
   - Access to frontend: http://localhost/example-simple-page/frontend.
   - Access to backend: http://localhost/example-simple-page/users/login (User = "John", Password = "123456").
   - IDE: phpStorm 2016.
-4. In the folder "/example-simple-page/project-to-deploy/webroot" 
+4. In order to see some examples for my code please go to the files:
+  - CSS: "/example-simple-page/project-to-deploy/webroot/css/frontend.css" 
+  - JS: "/example-simple-page/project-to-deploy/webroot/js/frontend.js"
+  - PHP: "/example-simple-page/project-to-deploy/src/Controller/FrontendController.php"
+  - HTML: "/example-simple-page/project-to-deploy/src/Template/Layout/frontend.ctp"
 5. Websites I worked on are visibles on Internet and the others are accessible only in Cuba. In all cases respecting the designer's proposal:
 
       . http://www.pensarencuba.cu/revista/
