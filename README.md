@@ -2,9 +2,9 @@
 
 Some things to specify:
 
-1. The example is very simple, there are products that belong to a category, the product is added to the cart and the user can start the flow to make the payment with paypal
+1. The example is very simple, there are products that belong to a category, the product is added to the cart and the user can start the flow to make the payment with paypal.
 2. How to deploy:
-  - create DB and execute sql file  \example-simple-page\database\db_example_simple_page.sql, this file contain all the tables an data
+  - create DB and execute sql file  \example-simple-page\database\db_example_simple_page.sql, this file contains all the tables and data
 3. For the example I use:
   - MySql for DB
   - php using CakePHP 3.2.12 framework
