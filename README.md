@@ -8,6 +8,8 @@ Some things to specify:
   - php using CakePHP 3.2.12 framework
   - Bootstrap, jQuery
   - Some functions: login(User => "John", Password => "123456"), manage entities(users, products, categories), show products by category, add product to cart, view/delete/addCount products in my cart.
+  - Access to frontend: http://localhost/example-simple-page/frontend
+  - Access to backend: http://localhost/example-simple-page/users/login
   - IDE: phpStorm 2016
   - Websites where I worked and are visibles on Internet, the others only are visibles inside Cuba. In all cases respecting the designer's proposal:
 
