@@ -38,12 +38,14 @@ class FrontendController extends AppController
         $this->set(array('categoryId'=>$categoryId, 'products' => $products->toArray()));
     }
 
+    /*******  get products by category Id   ********/
     public function getProducts($categoryId)
     {
         $product = TableRegistry::get('products');
         return $product->find('all', array('conditions' => array('category_id' => $categoryId)));
     }
 
+    /*******  update cart data    ********/
     public function updateCart()
     {
         $this->viewBuilder()->layout('ajax');
@@ -73,6 +75,7 @@ class FrontendController extends AppController
         $session->write('cart', $cartArray);
     }
 
+    /*******  update product count in the cart  ********/
     public function updateProductCart()
     {
         $this->viewBuilder()->layout('ajax');
@@ -94,6 +97,7 @@ class FrontendController extends AppController
             '__serialize' => 'price'));
     }
 
+    /*******  remove product from cart    ********/
     public function deleteProductFromCart()
     {
         $this->viewBuilder()->layout('ajax');
@@ -115,6 +119,7 @@ class FrontendController extends AppController
             '__serialize' => 'cart'));
     }
 
+    /*******  shopping cart view    ********/
     public function shoppingCart()
     {
         $this->viewBuilder()->layout('frontend');
@@ -125,6 +130,7 @@ class FrontendController extends AppController
         $this->set(array('products' =>$cartArray['products'], '__serialize' => 'products'));
     }
 
+    /*******  view product details    ********/
     public function viewProduct($productId){
         $this->viewBuilder()->layout('frontend');
         $product = TableRegistry::get('products');
@@ -133,6 +139,7 @@ class FrontendController extends AppController
         $this->set(array("product" => $product));
     }
 
+    /*******  get the total price to paid for the products in the cart    ********/
     private function calculateCartTotalPrice($cart){
         $total = 0;
         foreach ($cart['products'] as $product) {
@@ -141,6 +148,7 @@ class FrontendController extends AppController
         return $total;
     }
 
+    /*******  get the product position inside the cart    ********/
     private function getProductPosInCart($cart, $id){
         $i = 0;
         while($i < count($cart['products'])){
