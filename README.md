@@ -6,16 +6,17 @@ Some things to specify:
 2. How to deploy:
   - create DB and execute sql file  "/example-simple-page/database/db_example_simple_page.sql", this file contains all the tables and data.
   - copy all files in the folder "/example-simple-page/project-to-deploy" to Webserver.
-  - the DB settings is in file "/example-simple-page/project-to-deploy/config/app.php" line 220
+  - the DB settings is in file "/example-simple-page/project-to-deploy/config/app.php" line 220.
 3. For the example I used:
-  - MySql for DB
-  - php using CakePHP 3.2.12 framework
-  - Bootstrap, jQuery, CSS
+  - MySql for DB.
+  - php using CakePHP 3.2.12 framework.
+  - Bootstrap, jQuery, CSS.
   - Some functions: login, manage entities(users, products, categories), show products by category, add product to cart, view/delete/addCount products in my cart.
-  - Access to frontend: http://localhost/example-simple-page/frontend
-  - Access to backend: http://localhost/example-simple-page/users/login (User = "John", Password = "123456")
-  - IDE: phpStorm 2016
-  - Websites I worked on are visibles on Internet and the others are accessible only in Cuba. In all cases respecting the designer's proposal:
+  - Access to frontend: http://localhost/example-simple-page/frontend.
+  - Access to backend: http://localhost/example-simple-page/users/login (User = "John", Password = "123456").
+  - IDE: phpStorm 2016.
+4. In the folder "/example-simple-page/project-to-deploy/webroot" 
+5. Websites I worked on are visibles on Internet and the others are accessible only in Cuba. In all cases respecting the designer's proposal:
 
       . http://www.pensarencuba.cu/revista/
       . http://america-nuestra.cu/esp/site/home
