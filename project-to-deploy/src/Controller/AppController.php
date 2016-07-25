@@ -17,6 +17,7 @@ namespace App\Controller;
 use Cake\Controller\Controller;
 use Cake\Event\Event;
 
+
 /**
  * Application Controller
  *
@@ -71,6 +72,7 @@ class AppController extends Controller
         }
 
         $session = $this->request->session();
+        //$session->delete('cart');
         if(!$session->check('cart'))
             $session->write('cart', array('total' => 0, 'num' => 0, 'products' => array()));
     }

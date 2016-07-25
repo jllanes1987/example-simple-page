@@ -10,14 +10,17 @@
 
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('frontend.css') ?>
+    <?= $this->Html->css('toastr.min.css') ?>
 
     <?= $this->Html->script('jquery.min.js') ?>
     <?= $this->Html->script('bootstrap.min.js') ?>
-    <?= $this->Html->script('frontend.js') ?>
+    <?= $this->Html->script('toastr.min.js') ?>
+
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+
 
 </head>
 <body>
@@ -35,11 +38,12 @@
         <div class="container">
             <div class="col-sm-5 pull-right header-cart">
                 <?php $cart = $this->request->session()->read('cart'); ?>
-
-                <div class="shopping-cart">$
-                    <span><?php echo $cart['total'];?></span>
-                    <i class="glyphicon glyphicon-shopping-cart"></i>
-                    <span class="badge"><?php echo $cart['num'];?></span>
+                <div class="shopping-cart">
+                    <?php echo $this->Html->link(
+                        '$<span class="price">'.$cart['total'].'</span> <i class="glyphicon glyphicon-shopping-cart"></i><span class="badge">'.$cart['num'].'</span>',
+                        '/frontend/shoppingCart',
+                        ['escape' => false]
+                    );?>
                 </div>
             </div>
         </div>
@@ -60,24 +64,29 @@
         </div>
     </div>
     <!--end Banner -->
+</div>
 
-    <!--Products -->
+<!--Products -->
+<div class="content-view">
+    <div class="loading hidden"></div>
     <div id="content_view" class="container">
         <?php echo $this->fetch('content') ?>
     </div>
-    <!--end Products -->
-
-    <!--Footer -->
-    <div class="footer-bottom">
-        <div class="container">
-            <p class="footer-class">July 21 2016, Example for Peretz Mockin by
-                <a target="_blank" href="https://www.linkedin.com/in/yormary-llanes-669a3476">Jormary Llanes</a> </p>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
-    <!--end Footer -->
-
-
 </div>
+<!--end Products -->
+
+<!--Footer -->
+<div class="footer-bottom">
+    <div class="container">
+        <p class="footer-class">July 21 2016, Example for Peretz Mockin by
+            <a target="_blank" href="https://www.linkedin.com/in/yormary-llanes-669a3476">Jormary Llanes</a> </p>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!--end Footer -->
+<script>
+    var baseUrl = "<?php echo $this->Url->build('/frontend/', true);?>"
+</script>
+<?= $this->Html->script('frontend.js') ?>
 </body>
 </html>

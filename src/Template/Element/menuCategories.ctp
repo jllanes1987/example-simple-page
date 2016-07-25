@@ -12,12 +12,11 @@
             <div id="bs-megadropdown-tabs" class="navbar-collapse collapse" style="height: 1px;">
                 <ul class="nav navbar-nav items-categories">
                     <?php
-                    $selected = 'selected';
+                    $categoryId = isset($categoryId) ? $categoryId : -1;
                     foreach ($categories as $currentCategory)
                     {?>
-                        <li><a class="<?= $selected?>" href="#" id="<?php echo $currentCategory->id;?>"><?php echo $currentCategory->name;?></a></li>
-                    <?php $selected = '';}
-                    ?>
+                        <li><a class="<?= ($categoryId == $currentCategory->id)?'selected':''?>" href="#" id="<?php echo $currentCategory->id;?>"><?php echo $currentCategory->name;?></a></li>
+                    <?php } ?>
                 </ul>
             </div>
         </nav>

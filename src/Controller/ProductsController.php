@@ -53,6 +53,27 @@ class ProductsController extends AppController
     {
         $product = $this->Products->newEntity();
         if ($this->request->is('post')) {
+
+            if (!empty($this->request->data['image']['name'])) {
+                $file = $this->request->data['image'];
+                $fileName = strtolower($file['name']);
+                $ext = substr(strrchr($fileName, '.'), 0);
+                $fileName = substr($fileName, 0, strrpos ($fileName,'.'));
+                if (file_exists(WWW_ROOT . '/img/products/' . $fileName.$ext)) {
+                    $fileName = $fileName.'_' . time() . "_" . rand(000000, 999999);
+                }
+
+                if(move_uploaded_file($file['tmp_name'], WWW_ROOT . '/img/products/' . $fileName.$ext))
+                {
+                    $this->request->data['image'] =  $fileName.$ext ;
+                }
+                else
+                {
+                    $this->Flash->error(__('The product could not be saved, because the image could not loaded. Please, try again.'));
+                    return $this->redirect(['action' => 'add']);
+                }
+            }
+
             $product = $this->Products->patchEntity($product, $this->request->data);
             if ($this->Products->save($product)) {
                 $this->Flash->success(__('The product has been saved.'));
@@ -79,6 +100,30 @@ class ProductsController extends AppController
             'contain' => []
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
+
+            if (!empty($this->request->data['image']['name'])) {
+                $file = $this->request->data['image'];
+                $fileName = strtolower($file['name']);
+                $ext = substr(strrchr($fileName, '.'), 0);
+                $fileName = substr($fileName, 0, strrpos ($fileName,'.'));
+
+                unlink( WWW_ROOT . '/img/products/' . $product->image);
+
+                if (file_exists(WWW_ROOT . '/img/products/' . $fileName.$ext)) {
+                    $fileName = $fileName.'_' . time() . "_" . rand(000000, 999999);
+                }
+
+                if(move_uploaded_file($file['tmp_name'], WWW_ROOT . '/img/products/' . $fileName.$ext))
+                {
+                    $this->request->data['image'] =  $fileName.$ext ;
+                }
+                else
+                {
+                    $this->Flash->error(__('The product could not be saved, because the image could not loaded. Please, try again.'));
+                    return $this->redirect(['action' => 'add']);
+                }
+            }
+
             $product = $this->Products->patchEntity($product, $this->request->data);
             if ($this->Products->save($product)) {
                 $this->Flash->success(__('The product has been saved.'));
@@ -104,6 +149,7 @@ class ProductsController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $product = $this->Products->get($id);
         if ($this->Products->delete($product)) {
+            unlink( WWW_ROOT . '/img/products/' . $product->image);
             $this->Flash->success(__('The product has been deleted.'));
         } else {
             $this->Flash->error(__('The product could not be deleted. Please, try again.'));

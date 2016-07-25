@@ -8,7 +8,9 @@
                     <div class="product-img">
                         <?php echo $this->Html->image('products/'.$currentProduct->image, array('class' => 'img-responsive'));?>
                         <div class="zoom-icon">
-                            <a rel="title" target="_blank" href="/example/img/products/<?php echo $currentProduct->image;?>" class="picture"><i class="glyphicon glyphicon-search icon "></i></a>
+                            <a rel="title" href="<?php echo $this->Url->build(array("controller" => "frontend", "action" => "viewProduct",$currentProduct->id));?>" class="picture">
+                                <i class="glyphicon glyphicon-search icon "></i>
+                            </a>
                         </div>
                     </div>
                     <div class="product-info">
@@ -17,7 +19,7 @@
                                 <div class="product-name"><?php echo $currentProduct->name;?></div>
                             </div>
                             <div class="item_add col-md-3">
-                                <a id="<?php echo $currentProduct->id;?>" href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                <a id="<?php echo $currentProduct->id;?>" class="glyphicon glyphicon-shopping-cart"></a>
                             </div>
                             <div class="clearfix"></div>
                         </div>
