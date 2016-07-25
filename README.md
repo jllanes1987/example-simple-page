@@ -7,7 +7,7 @@ Some things to specify:
 3. For the example I use:
   - MySql for DB
   - php using CakePHP 3.2.12 framework
-  - Bootstrap, jQuery
+  - Bootstrap, jQuery, CSS
   - Some functions: login(User => "John", Password => "123456"), manage entities(users, products, categories), show products by category, add product to cart, view/delete/addCount products in my cart.
   - Access to frontend: http://localhost/example-simple-page/frontend
   - Access to backend: http://localhost/example-simple-page/users/login
