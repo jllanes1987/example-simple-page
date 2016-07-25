@@ -13,7 +13,7 @@ Some things to specify:
   - Access to frontend: http://localhost/example-simple-page/frontend
   - Access to backend: http://localhost/example-simple-page/users/login
   - IDE: phpStorm 2016
-  - Websites where I worked and are visibles on Internet, the others only are visibles inside Cuba. In all cases respecting the designer's proposal:
+  - Websites I worked on and are visibles on Internet, the others only are visibles inside Cuba. In all cases respecting the designer's proposal:
 
       . http://www.pensarencuba.cu/revista/
       . http://america-nuestra.cu/esp/site/home
