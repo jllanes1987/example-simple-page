@@ -3,7 +3,8 @@
 Some things to specify:
 
 1. I would like to say that I have access to codes from my previus jobs, but I don't feel confortable giving the work I did for other companies, for reasons of confidentiality. Here you will find a small example I did in order to show how I work.
-2. For the example I use:
+2. The example is very simple, there are products that belong to a category, the product is added to the cart and the user can start the flow to make the payment with paypal
+3. For the example I use:
   - MySql for DB
   - php using CakePHP 3.2.12 framework
   - Bootstrap, jQuery
